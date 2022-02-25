@@ -1,0 +1,80 @@
+<Settings>
+    <PropertyList>
+        <!-- Joystic-->
+        <Property>
+            <name>Aileron</name>
+            <columNumber>0</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <Property>
+            <name>Elevator</name>
+            <columNumber>1</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <Property>
+            <name>Rudder</name>
+            <columNumber>2</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <Property>
+            <name>Throttle</name>
+            <columNumber>6</columNumber>
+            <minRange>0</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <!--Dashboard-->
+        <Property> <!--Air speed-->
+            <name>AirSpeed</name>
+            <columNumber>24</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+
+        <Property>
+            <name>Altimeter</name>
+            <columNumber>25</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <Property>
+            <name>Roll</name>
+            <columNumber>17</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <Property>
+            <name>Pitch</name>
+            <columNumber>18</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+        <Property>
+            <name>Yaw</name>
+            <columNumber>36</columNumber>
+            <minRange>-1</minRange>
+            <maxRange>1</maxRange>
+        </Property>
+
+
+    </PropertyList>
+
+    <DataSamplingRate>
+        10
+    </DataSamplingRate>
+
+
+    <FlightGearPort>
+        5400
+    </FlightGearPort>
+</Settings>
